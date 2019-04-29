@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    color: blue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    height: 70px;
+    align-items: center;
+}
+header div:nth-child(1){
+    height: 50px;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div img{
+    width: 60px;
+}
+header div:nth-child(2){
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+section div:nth-child(1){
+    height: 80vh;
+    background-image: url(https://swagpix.com/system/photos/resources/000/002/775/show/pexels-photo.jpeg?1454236033);
+    background-size: cover;
+    background-position: center center;
+}
+section div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 98vw;
+}
+aside div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+aside div img{
+    width: 70px;
+}
+footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+}
